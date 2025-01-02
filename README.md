@@ -325,7 +325,7 @@ Looking at the download for Kali Linux, I noticed that it is a seven-zip file ex
 We'll go ahead and navigate to their website 7-zip. Take a look at your architecture, if it's a Windows 64-bit machine or 32-bit machine, download the appropriate one for you. In my case, it's a 64-bit machine, so I'll go ahead and download that. Once that is downloaded, I'll go ahead and install it.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/BiLAfl.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -333,7 +333,10 @@ We'll go ahead and navigate to their website 7-zip. Take a look at your architec
 Kali has finished downloading and there is one thing I forgot to mention, and that is the default credentials. To log into Kali Linux, the default credentials is the username "Kali" and the password "Kali" as well. Let's head over to our our downloads folder and now since we have seven zip installed, we can go ahead and right-click the Kali Linux archive.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/cBqIpm.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/qfI7oU.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -341,7 +344,16 @@ Kali has finished downloading and there is one thing I forgot to mention, and th
 Go to 7-zip and click on "Extract to" directory. Now that it is done extracting, let's head into that folder. All you need to do is double-click on the ".vBox" file. If you don't see the file extension, you can simply click on "View" and check "File name extensions". Once we do that, we can now see the vbox file extension.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/wElJM6.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/KadxYP.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/zxPXIq.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/QTZYg6.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -349,15 +361,24 @@ Go to 7-zip and click on "Extract to" directory. Now that it is done extracting,
 Once we double-click that, it should automatically be imported into our virtual box. So we can go ahead and start Kali and when you're on the log-on screen just remember to log in with "Kali" and "Kali" as the password. Once you have virtual box installed, along with Windows 10 and Cali Linux, we can now begin installing our Windows Server.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/KyJ9wq.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-Over to Google, we want to search up "Windows Server 2022 ISO" and we want to select the "Windows Server 2022 Microsoft Evaluation Center". This is where we will download our ISO file by clicking on "Download the ISO". Then we need to fill in the information. Once you fill in the information, you should be presented with this screen.
+Over to Google, we want to search up "Windows Server 2022 ISO" and we want to select "Windows Server 2022 Microsoft Evaluation Center". This is where we will download our ISO file by clicking on "Download the ISO". Then we need to fill in the information. Once you fill in the information, you should be presented with this screen.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/mrs7GY.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/KMpEj4.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/8O1Y0b.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/jT9inY.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -365,7 +386,10 @@ Over to Google, we want to search up "Windows Server 2022 ISO" and we want to se
 The next thing to do is click on 64-bit Edition under "ISO Downloads" and depending on your speeds, this might take a while. However, once the ISO is finished downloading, we then want to start adding this onto our virtual machine. To do this, we want to click on the "NEW" icon and then provide your virtual machine with a name.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/jT9inY.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/1sunD0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -373,7 +397,13 @@ The next thing to do is click on 64-bit Edition under "ISO Downloads" and depend
 I will call it "ADDC01" and then for the "Folder", you can select the folder of where you want to open your virtual machine. As for the iso image, we want to select the one that we just downloaded and we want to leave all of this as default. I will select skip unintended installation because I don't want Virtual Box to automatically install this as I have experienced some errors in the past when I was using it.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/SrqkED.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/iDRVQc.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/mfHW1k.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -381,7 +411,7 @@ I will call it "ADDC01" and then for the "Folder", you can select the folder of 
 Now under the "Hardware" tab, it is set to 2 gigs by default. So I will actually change this over to four. Now this might be a little slow, but that is okay, as long as it works and if you have a computer that only has 8 gigs of RAM. For example, I would recommend you shut off all of your virtual machines and install them one at a time.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/TZV2RF.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -389,7 +419,7 @@ Now under the "Hardware" tab, it is set to 2 gigs by default. So I will actually
 Once everything is installed, then you want to change your specs back to 2 gigs, instead of four. As this will help you save some resources, but in the beginning stay with 4 gigs until everything is installed. As for "Hard Disk", I am going to leave it as 50 gigs because I think that's good enough and I will select "Finish".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/aSuXw4.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -397,7 +427,13 @@ Once everything is installed, then you want to change your specs back to 2 gigs,
 Now we can go ahead and just hit "Start". So once the virtual machine is booted up, you'll see the setup and I will leave it as default. Hit "Next" and select "Install Now". As for the operating system you want to install, you want to select the second option which is "Windows Server 2022 Standard Evaluation (Desktop Experience)".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/zoJc7r.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/c5uGEM.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/GK4v2q.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -405,7 +441,10 @@ Now we can go ahead and just hit "Start". So once the virtual machine is booted 
 If you don't select, that you'll just get a CLI, a command line interface, and it can be pretty tough to navigate around it so make sure you select the second option. Then hit "Next" and accept the terms and agreements. Now we want to select "Custom" and hit "Next".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/IuTHzZ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/iRr7gS.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -413,7 +452,10 @@ If you don't select, that you'll just get a CLI, a command line interface, and i
 Now this will take its time and install Windows Server 2022 on onto our virtual machine. All right, so this took about 10 minutes and after the setup is completed you should be presented with this screen to create your own password. I'll type in a super secure password and then I'll click on "Finish".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/cDeL9u.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/b1tNvR.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -421,7 +463,10 @@ Now this will take its time and install Windows Server 2022 on onto our virtual 
 After a couple seconds, we can now start to log in using the username "administrator" and the password that we had just set. As an FYI, to perform a cntrl+alt+delete onto your virtual machine because it does say, "Hey, press cntrl+alt+delete to unlock." We can do this by selecting the "Input" tab at the top. Go over to "Keyboard" and click "Insert Ctrl+Alt+Del".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/IGa1AD.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/EyjIH8.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
