@@ -618,7 +618,13 @@ We'll use the account that we just created earlier, so in my case, it is "mydfir
 I'll type in "mydfir" and my password. Once we're logged in, let's run a quick "sudo apt-get update && sudo apt-get upgrade -y". It'll ask for my password again. Using this command, we'll go out and update and upgrade all of our repositories. Once you are presented with this screen, you can go ahead and hit "Enter" and now our server is ready to go.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/oEwLQk.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/kScPeY.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/MhcElG.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
