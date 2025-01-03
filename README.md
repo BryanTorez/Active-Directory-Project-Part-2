@@ -471,10 +471,16 @@ After a couple seconds, we can now start to log in using the username "administr
 <br />
 <br />
 <br />
-Or you can use the shortcut key that is listed on the side. We'll log in with the password that we just created and once we log in we can just go ahead and select "No" for now. We'll see an application called "Server Manager". Which is what we'll use to install our active directory, but that will be in part four of the series.
+We'll log in with the password that we just created and once we log in we can just go ahead and select "No" for now. We'll see an application called "Server Manager". Which is what we'll use to install our active directory, but that will be in part four of the series.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/BvCuE7.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/ubAaR6.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/4wMQnX.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -482,7 +488,7 @@ Or you can use the shortcut key that is listed on the side. We'll log in with th
 Now that we have our Windows target machine, Kali Linux, and Windows Server installed, the last thing to do is install our Splunk server. Over to our web browser, let's head over to "ubuntu.com" and under "Products" we want to select "Ubuntu Server". 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/czxAWs.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -490,7 +496,10 @@ Now that we have our Windows target machine, Kali Linux, and Windows Server inst
 Now we can click on "Download Ubuntu Server" and as of creating this project, the version that we are downloading is "Ubuntu server 22.04.3". Now this version might be different depending on when you are reading this form, but as long as you download any form of '22.04.03', you should be fine.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/hFKqjW.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/3E6QFZ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -498,7 +507,10 @@ Now we can click on "Download Ubuntu Server" and as of creating this project, th
 I'll go ahead and select that. Now, your download should begin. Of course, if your download doesn't start, you can just click "download now." Similar to how we downloaded other virtual machines on Virtual Box, we want to go ahead and select "New". I'll name our server "Splunk" and our folder should be under our active directory folder.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/l9mH7N.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/719YGH.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -506,7 +518,13 @@ I'll go ahead and select that. Now, your download should begin. Of course, if yo
 For the ISO Image, we want to select the one we just downloaded. Then we'll leave everything as default, but click on "Skip Unattended Installation". As for Hardware, I am going to set this to 8 gigs, but again depending on your hardware specs, you can set this to four. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/LrJeKC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/A90vra.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/qAzahZ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -514,7 +532,10 @@ For the ISO Image, we want to select the one we just downloaded. Then we'll leav
 I'll also select my processors to two since we want to make Splunk a little beefier compared to our other virtual machines because this is going to be ingesting data and we'll be running searches on it. For our hard disk, I'll go ahead and bump this over to 100 gigs and hit "Finish".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/dwkDex.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/1GaulV.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -522,7 +543,13 @@ I'll also select my processors to two since we want to make Splunk a little beef
 Now, we can go ahead and power it on by clicking on "Start". Once you're presented with the screen, go ahead and select the first option which is "Try or Install Ubuntu Server". For the options, I'll leave it as default and continue hitting "Enter". 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/pwkhAX.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/BhnQd5.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/YELyCo.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -530,7 +557,13 @@ Now, we can go ahead and power it on by clicking on "Start". Once you're present
 Perfect, so now we want to select "Continue" and with the guided storage configuration, we need to use the down arrow to go over to "Done". Click "Done", and click "Continue". Finally, we are presented with the options to enter in your name, your username, and password.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/TEgOGP.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/x7JeFv.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/tabdSQ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -538,7 +571,13 @@ Perfect, so now we want to select "Continue" and with the guided storage configu
 For my name, I'll just select "Bob". For the server name, I'm going to say "Splunk". For the username, I'll say "mydfir", and for the password, make it super secure. Then hit "Done". Now, we don't need Ubuntu Pro so we can go ahead and skip that for now, and open SSH. It is up to you if you want to install it, I'm just going to skip it.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/9xYkaM.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/9xYkaM.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/BAthRX.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -546,7 +585,13 @@ For my name, I'll just select "Bob". For the server name, I'm going to say "Splu
 We don't need any of these options so scroll down and hit "Done". Now our setup is going to start installing Ubuntu Server onto our virtual machine. So you know when your installer is completed after you see a "Reboot now" option. So we'll go ahead and select that and hit "Enter".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/TWBC10.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/8MJVeB.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/68Uoec.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -554,7 +599,10 @@ We don't need any of these options so scroll down and hit "Done". Now our setup 
 You will get an error saying "Failed unmounting /cdrom", but don't worry, we can simply hit "Enter". If you want, you can go ahead and remove the ISO file, but again I'll just leave it as it is. Once Ubuntu finishes up with its reboot, we are now presented with a log-on screen. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/gZuI4M.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/CFeduj.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -562,7 +610,7 @@ You will get an error saying "Failed unmounting /cdrom", but don't worry, we can
 We'll use the account that we just created earlier, so in my case, it is "mydfir" and of course the password. If this is your first time doing this, you might notice that when typing in a password you don't see any input. Don't worry, this is by design. It is not shown for security purposes, but do note if you do make a mistake just go ahead and hit backspace to remove everything or you can go ahead and hit "Enter" to reset everything and then try logging in again.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/CFeduj.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
